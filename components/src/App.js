@@ -1,6 +1,8 @@
 
 import './App.css';
-import ParenComp from './components/ParenComp';
+import FocusInput from './components/FocusInput';
+// import RefsDemo from './components/RefsDemo';
+// import ParenComp from './components/ParenComp';
 // import PureComp from './components/PureComp';
 // import Table from './components/Table';
 // import FragmentDemo from './components/FragmentDemo';
@@ -27,7 +29,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ParenComp />
+        <FocusInput />
+        {/* <RefsDemo /> */}
+        {/* <ParenComp /> */}
         {/* <PureComp /> */}
         {/* <Table /> */}
         {/* <FragmentDemo /> */}
